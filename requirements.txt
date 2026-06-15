@@ -1,0 +1,16 @@
+# Core — used by the framework itself
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Competitor-analysis workflow
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+Pillow>=10.0.0
+reportlab>=4.0.0
+matplotlib>=3.8.0
+pymupdf>=1.24.0   # render PDF pages to PNG for previewing reports (poppler not installed)
+
+# Google APIs (for Sheets / Slides / Drive deliverables) — uncomment when needed.
+# google-api-python-client>=2.0.0
+# google-auth>=2.0.0
+# google-auth-oauthlib>=1.0.0

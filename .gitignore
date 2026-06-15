@@ -1,0 +1,26 @@
+# Secrets — never commit
+.env
+credentials.json
+token.json
+*.key
+*.pem
+
+# Temporary / intermediate files (regenerated as needed)
+.tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Claude Code — personal/machine-local settings
+.claude/settings.local.json

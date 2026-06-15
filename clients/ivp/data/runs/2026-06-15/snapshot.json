@@ -1,0 +1,470 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-06-15",
+  "business": {
+    "name": "Indus Valley Partners",
+    "url": "https://www.ivp.in/",
+    "tagline": "Finance Forward",
+    "category": "Buy-side investment management technology & managed services (fintech)",
+    "description": "Technology products, managed services, and consulting for alternative asset managers, spanning front-to-back data, risk, portfolio, and regulatory reporting workflows.",
+    "value_prop": "Helps sophisticated asset managers improve efficiency, insight, and performance through data platforms, risk tools, data-quality automation, and workflow digitization.",
+    "target_customers": "Alternative asset managers: hedge funds, private equity, private credit and CLO managers, family offices, infrastructure and real estate funds",
+    "differentiators": [
+      "25+ years focused exclusively on the buy-side",
+      "Combines software products + managed services + consulting",
+      "Industry platforms: IVP for Private Funds, IVP for Credit, IVP for Master Data Management",
+      "Serves large, complex managers (Blue Owl, Bain Capital, Hudson Bay, Sands Capital)"
+    ],
+    "geography": "Global; HQ New York, delivery across multiple time zones",
+    "notable_clients": [
+      "Blue Owl",
+      "Bain Capital",
+      "Hudson Bay Capital",
+      "Sands Capital"
+    ],
+    "_source": "Drafted from https://www.ivp.in/ + public sources on 2026-06-15. Review and edit freely."
+  },
+  "market_summary": {
+    "overview": "The buy-side and alternative-asset technology market is consolidating around unified front-to-back data platforms while a wave of AI ('agentic') automation reshapes the middle and back office. Scale players are buying their way to breadth (Clearwater Analytics acquired Enfusion for ~$1.5B; SS&C acquired Calastone), enterprise incumbents (SimCorp, SS&C) push a single-source-of-truth platform, and specialists differentiate on private-markets depth (Allvue), regulatory and data quality (Confluence), and AI-native valuation and data (Arcesium, 73 Strings). Competitors also compete loudly on content and channels (client-story video, product explainers, podcasts and webinars). For IVP, a 25-year buy-side specialist now scaling via M&A (IntegriDATA) with $5.5T+ AUM across its group, the battleground is data management, private-credit operations, a credible AI story, and market visibility.",
+    "key_trends": [
+      "Front-to-back platform consolidation and M&A (Clearwater acquires Enfusion ~$1.5B; SS&C acquires Calastone)",
+      "Agentic AI moving into middle and back-office workflows (Arcesium AI agents, Confluence Rex)",
+      "Private-markets data and valuation automation (73 Strings, Allvue, Arcesium)",
+      "Regulatory reporting and data quality as competitive differentiators (Confluence; ILPA reporting frameworks)",
+      "Content and video marketing as a competitive channel (client-story video, product explainers, podcasts, webinars)",
+      "Buy-side demand for a single source of truth and a unified data layer"
+    ],
+    "whats_working_for_competitors": [
+      "Unified front-to-back platforms reduce vendor sprawl and win enterprise deals (Enfusion, SimCorp, SS&C).",
+      "AI-native messaging backed by shipped agents creates differentiation and buying urgency (Arcesium, 73 Strings, Confluence Rex).",
+      "Private-markets specialization with ILPA-aligned LP reporting resonates with PE and credit GPs (Allvue).",
+      "Managed services and outsourcing layered onto software drive recurring revenue and retention (Enfusion ~95% retention, SS&C).",
+      "High-cadence video and event content (client stories, product explainers, AI webinars) keeps competitors visible and builds trust (SS&C Black Diamond stories, Allvue, SimCorp, Confluence).",
+      "Third-party analyst and award recognition (Chartis, RegTech Insight) builds buy-side trust (Confluence)."
+    ],
+    "your_opportunities": [
+      {
+        "title": "Lead with private-credit and private-funds depth",
+        "rationale": "Allvue and 73 Strings are crowding private markets; IVP for Credit / Private Funds plus the IntegriDATA acquisition is a real edge. Make it the headline message, not a sub-bullet.",
+        "priority": "high"
+      },
+      {
+        "title": "Ship and market a credible agentic-AI story",
+        "rationale": "Arcesium, Confluence (Rex) and 73 Strings are defining the AI narrative. IVP needs visible AI in data quality, NAV/reconciliation and valuation to avoid looking behind.",
+        "priority": "high"
+      },
+      {
+        "title": "Own the unified data layer / single source of truth",
+        "rationale": "The market is rallying around unified buy-side data. IVP's Master Data Management plus managed services can claim 'data-first' rather than a set of point tools.",
+        "priority": "high"
+      },
+      {
+        "title": "Revive a dormant content and video channel",
+        "rationale": "IVP's YouTube channel has ~35 subscribers and ~8 videos, all from 2012, and isn't linked from ivp.in. Competitor channels are modest too (SimCorp ~989, SS&C ~746, Arcesium ~704 subs), but several publish current client stories, product explainers and webinars, and Enfusion runs the 'Beyond Alpha' podcast. The gap is activity/recency: a modern program (client stories, product explainers, an AI / private-credit POV series), promoted on LinkedIn, would close it at low cost.",
+        "priority": "high"
+      },
+      {
+        "title": "Differentiate on managed services + product together",
+        "rationale": "Competitors monetize managed services for retention; IVP's 25-year services DNA is a moat to emphasize versus pure-software rivals.",
+        "priority": "medium"
+      },
+      {
+        "title": "Address AI valuation (build or partner) before 73 Strings expands",
+        "rationale": "AI valuation and data extraction is an emerging wedge straight into IVP's data turf; a native module or a partnership would neutralize it.",
+        "priority": "medium"
+      },
+      {
+        "title": "Pursue analyst and award visibility",
+        "rationale": "Confluence leverages Chartis and RegTech recognition for trust; IVP should pursue comparable independent validation.",
+        "priority": "low"
+      }
+    ],
+    "ivp_channel_note": "IVP's YouTube channel (IndusValleyPartners) has ~35 subscribers and ~8 videos, all uploaded in 2012, and isn't linked from ivp.in. Competitor channels are also modest (SimCorp ~989, SS&C ~746, Arcesium ~704 subs; Allvue and Confluence ~58 each), so the real gap is activity and recency, not audience scale: several competitors publish current client-story and product content while IVP's channel has been dormant for over a decade. LinkedIn is the sector's primary owned channel; a refreshed, current video and thought-leadership cadence is a low-cost differentiator."
+  },
+  "competitors": [
+    {
+      "url": "https://www.enfusion.com/",
+      "one_liner": "Cloud-native, front-to-back investment management SaaS (now part of Clearwater Analytics).",
+      "positioning": "A unified, multi-tenant cloud platform spanning portfolio management, OEMS, accounting/GL and managed services.",
+      "target_customers": "Hedge funds, asset managers and institutional investors; 1,000+ clients across 30 countries.",
+      "products": [
+        "Portfolio Management System (real-time IBOR)",
+        "Order & Execution Management (OEMS)",
+        "Accounting / General Ledger",
+        "Managed Services",
+        "Analytics & Reporting"
+      ],
+      "key_features": [
+        "Real-time IBOR and risk",
+        "Multi-asset electronic execution",
+        "Automated double-entry ledger",
+        "Multi-entity support",
+        "Cloud multi-tenant architecture"
+      ],
+      "pricing": "Subscription, quote-on-request; no free trial.",
+      "strengths": [
+        "~95% client retention",
+        "Rapid time-to-implement",
+        "True real-time front-to-back on one platform",
+        "Growing managed-services recurring revenue",
+        "Now backed by Clearwater Analytics' scale"
+      ],
+      "weaknesses": [
+        "North America-heavy (75%+ of revenue); limited EU/Asia footprint",
+        "Feature gaps versus some specialist competitors",
+        "Integration and identity questions post-Clearwater acquisition"
+      ],
+      "marketing_content": "Runs the 'Beyond Alpha' podcast (tech-provider relationships, governance, AI/blockchain) and a 'What's Next in Investment Management' video series, plus COO/exec interviews, white papers, case studies and webinars. Content is increasingly folding into the Clearwater Analytics brand post-acquisition.",
+      "social_presence": {
+        "linkedin": "~140K (now under Clearwater)",
+        "youtube": "@oneenfusion / Clearwater-era channel; subs n/a (transitioning). Brand, exec interviews, 'What's Next' series",
+        "x": "Limited"
+      },
+      "customer_sentiment": "Generally positive with high retention; some users cite functionality gaps and onboarding effort.",
+      "recent_moves": [
+        "Jan 2025: Acquired by Clearwater Analytics for ~$1.5B",
+        "Expanding the managed-services layer",
+        "Highlighted quant-fund adoption"
+      ],
+      "sources": [
+        "https://www.enfusion.com/",
+        "https://www.youtube.com/@oneenfusion",
+        "https://www.capterra.com/p/165409/Enfusion/",
+        "https://www.hedgeweek.com/quant-funds-choose-enfusion-investment-management-technology-and-managed-services/"
+      ],
+      "name": "Enfusion",
+      "content_focus": "Podcast + thought leadership",
+      "youtube_activity": "subs n/a; active (Clearwater)",
+      "ratings": "Limited public product reviews (Capterra: none; G2 sparse) - enterprise motion; ~95% reported client retention"
+    },
+    {
+      "url": "https://www.arcesium.com/",
+      "one_liner": "Cloud-native data and post-trade operations platform for sophisticated buy-side and sell-side firms.",
+      "positioning": "Front-to-back data management and operational scale for the most complex institutions; D.E. Shaw-born, Blackstone and J.P. Morgan-backed.",
+      "target_customers": "Hedge funds, asset managers, private-markets firms and sell-side; services $6.4T+ gross AUM.",
+      "products": [
+        "Data management platform",
+        "Post-trade operations",
+        "Private-markets solutions",
+        "Agentic AI platform",
+        "Opterra / Aquata",
+        "Integrations hub (OMS, risk, accounting, SWIFT)"
+      ],
+      "key_features": [
+        "Pre-built AI agents (P&L explain, NAV review, portfolio monitoring)",
+        "Private client pod on AWS/VPC",
+        "170M+ investments modelled",
+        "Deep multi-system integrations",
+        "FactSet front-to-back partnership"
+      ],
+      "pricing": "Enterprise, quote-on-request (not public).",
+      "strengths": [
+        "Elite pedigree (D.E. Shaw / Blackstone / J.P. Morgan)",
+        "Handles the most complex workflows at scale",
+        "Early, credible agentic-AI offering",
+        "~1,800 engineering/ops staff"
+      ],
+      "weaknesses": [
+        "Enterprise-grade complexity and cost; less fit for smaller managers",
+        "Heavy implementations",
+        "Opaque pricing"
+      ],
+      "marketing_content": "Web- and LinkedIn-led thought leadership on unified buy-side data ('Can You Really Trust Your Data?', exec David Nable). YouTube leans brand/culture (Five Year Journey, anniversaries, Lisbon) plus product intros (Introducing Opterra, Aquata); last upload Dec 2025. Heavy press around the agentic-AI platform and FactSet partnership.",
+      "social_presence": {
+        "linkedin": "Large (~1,800 staff)",
+        "youtube": "youtube.com/c/Arcesium - ~704 subs, ~13 videos; culture + product intros (Opterra, Aquata)",
+        "x": "@arcesium"
+      },
+      "customer_sentiment": "Respected by complex institutions; little public review data due to enterprise motion.",
+      "recent_moves": [
+        "2025: Launched a comprehensive agentic-AI platform",
+        "2025: FactSet partnership for front-to-back workflows",
+        "Ongoing private-markets expansion"
+      ],
+      "sources": [
+        "https://www.arcesium.com/",
+        "https://www.youtube.com/c/Arcesium",
+        "https://investor.factset.com/news-releases/news-release-details/factset-and-arcesium-debut-tech-unite-front-middle-and-back",
+        "https://www.cbinsights.com/company/arcesium"
+      ],
+      "name": "Arcesium",
+      "content_focus": "Thought leadership + brand/culture",
+      "youtube_activity": "~704 subs; light (to Dec '25)",
+      "ratings": "Glassdoor 4.0/5 (916 reviews, employer), 86% recommend; few public product reviews (enterprise)"
+    },
+    {
+      "url": "https://www.ssctech.com/",
+      "one_liner": "Diversified financial-software and fund-services giant spanning the full front-to-back stack.",
+      "positioning": "Breadth and scale: own the entire stack (OMS/EMS to accounting to fund admin to outsourcing) and reduce vendor sprawl.",
+      "target_customers": "Asset managers, hedge funds, RIAs, family offices and insurers; global.",
+      "products": [
+        "Geneva (accounting/PMS)",
+        "Eze / Eze Eclipse (OEMS)",
+        "GlobeOp (fund administration)",
+        "Advent (APX, Black Diamond)",
+        "Calastone funds network"
+      ],
+      "key_features": [
+        "Full-stack, modular or integrated",
+        "Fund administration + middle-office outsourcing",
+        "Workflow automation and reconciliation",
+        "Secure custodian/PB/market-data APIs"
+      ],
+      "pricing": "Enterprise/custom; not public.",
+      "strengths": [
+        "Massive scale and product breadth",
+        "One-stop vendor (products + outsourcing)",
+        "Large recurring-revenue base"
+      ],
+      "weaknesses": [
+        "Fragmented stack from many acquisitions causes integration friction",
+        "Can feel legacy and complex",
+        "Less nimble than cloud-native specialists"
+      ],
+      "marketing_content": "High-volume video via the 'SS&C Advent' YouTube channel, very active into 2026: Black Diamond Wealth Solutions client stories (Diversified Trust, Symmetry, LourdMurray, The Mason Companies), leader interviews and WealthAdvisor segments. Broad multi-brand content across Advent / Black Diamond / Eze.",
+      "social_presence": {
+        "linkedin": "Major (public co.)",
+        "youtube": "youtube.com/c/SsctechInc ('SS&C Advent') - ~746 subs; Black Diamond client stories (plus other brand channels)",
+        "x": "@SSCTechnologies"
+      },
+      "customer_sentiment": "Trusted at scale; complexity and integration are the common critiques.",
+      "recent_moves": [
+        "2025: Acquired Calastone (global funds network, 4,500+ organizations)",
+        "Continued AI and automation investment"
+      ],
+      "sources": [
+        "https://www.ssctech.com/",
+        "https://www.youtube.com/c/SsctechInc",
+        "https://www.advent.com/",
+        "https://en.wikipedia.org/wiki/SS&C_Technologies"
+      ],
+      "name": "SS&C Technologies",
+      "content_focus": "Client stories, wealth (Black Diamond)",
+      "youtube_activity": "~746 subs; very active (2026)",
+      "ratings": "On Gartner Peer Insights (SS&C Eze, SS&C Advent); few aggregated public product scores"
+    },
+    {
+      "url": "https://www.simcorp.com/",
+      "one_liner": "Enterprise front-to-back investment management platform (SimCorp One) for public and private markets.",
+      "positioning": "A single integrated multi-asset platform and single source of truth across the investment lifecycle.",
+      "target_customers": "Large asset managers, asset owners, pension funds and insurers; global enterprise.",
+      "products": [
+        "SimCorp One",
+        "Portfolio management & trading",
+        "Investment accounting & IBOR",
+        "Risk & compliance (Axioma)",
+        "Fund administration",
+        "ESG",
+        "Alternatives support"
+      ],
+      "key_features": [
+        "Public + private markets in one platform",
+        "Highly customizable and flexible",
+        "Single data source front-to-back",
+        "Axioma risk analytics",
+        "50+ years of domain depth"
+      ],
+      "pricing": "Enterprise; not public.",
+      "strengths": [
+        "Deep, flexible, integrated platform",
+        "Strong with large and complex institutions",
+        "Single source of truth across asset classes"
+      ],
+      "weaknesses": [
+        "Complex to learn with a steep ramp",
+        "Implementations frequently exceed budget and timeline",
+        "Heavyweight for smaller managers"
+      ],
+      "marketing_content": "Heavy webinar program (2025: Client Reporting, Global Equities Risk Insights, AI-Powered Portfolio Management, Front Office Velocity) and SimCorp Global Summit 2025 in Barcelona (largest audience to date). YouTube (300+ videos) features AI-produced product explainers, Axioma risk-model education and portfolio-optimization content.",
+      "social_presence": {
+        "linkedin": "~49.8K followers",
+        "youtube": "SimCorp channel - ~989 subs, ~16 videos; explainers, Axioma risk, eLearning",
+        "x": "Present"
+      },
+      "customer_sentiment": "Praised for flexibility and integration; criticized for complexity and implementation cost/time.",
+      "recent_moves": [
+        "2025: SimCorp Global Summit (Barcelona); AI-Powered Portfolio Management push",
+        "Continued SimCorp One rollout and private-markets expansion under Deutsche Borse ownership"
+      ],
+      "sources": [
+        "https://www.simcorp.com/",
+        "https://www.youtube.com/channel/UCKPHUkNBQTA3nlPJE1CfwXQ",
+        "https://www.gartner.com/reviews/product/simcorp-one",
+        "https://www.trustradius.com/products/simcorp-one/reviews"
+      ],
+      "name": "SimCorp",
+      "content_focus": "Product/risk education + webinars",
+      "youtube_activity": "~989 subs; active (to Oct '25)",
+      "ratings": "G2 4.4/5 (21 reviews); also listed on Gartner Peer Insights"
+    },
+    {
+      "url": "https://www.allvuesystems.com/",
+      "one_liner": "Investment software for private equity and private credit across the full fund lifecycle.",
+      "positioning": "A unified PE/credit platform from fundraising and deal management through accounting to investor reporting (BlackMountain + AltaReturn heritage).",
+      "target_customers": "Private equity, private credit and CLO managers, fund administrators, GPs and LPs.",
+      "products": [
+        "Fund accounting",
+        "Portfolio & deal management",
+        "Credit management",
+        "Investor portal & reporting",
+        "Nexius Intelligent Data Platform"
+      ],
+      "key_features": [
+        "Front-to-back PE/credit lifecycle",
+        "ILPA-aligned LP reporting",
+        "Compliance automation",
+        "Investor portals",
+        "AI/real-time data (Nexius)"
+      ],
+      "pricing": "Quote-on-request with annual terms; demo offered, no public free trial.",
+      "strengths": [
+        "Deep private-markets (PE + credit) focus, directly overlapping IVP for Private Funds/Credit",
+        "Unified front + back office from the merger",
+        "Strong investor-reporting and ILPA support",
+        "$2.5T+ on platform"
+      ],
+      "weaknesses": [
+        "Narrower to private markets; not a multi-asset hedge-fund front office",
+        "Integration depth varies by module",
+        "Mid-market perception versus enterprise incumbents"
+      ],
+      "marketing_content": "Very active video and events into 2026: client transformation stories (Inventure, Phoenix Fund Services), 'Allvue in Action' product demos, 'AI in Private Capital' (with Ticker News), Nexius data-platform launch, and the Allvue Access25 conference; plus 'The Alternatives Perspective' newsletter.",
+      "social_presence": {
+        "linkedin": "~10.5K followers",
+        "youtube": "@AllvueSystems - ~58 subs but ~30 videos; client stories, AI, Access25",
+        "x": "@allvuesystems"
+      },
+      "customer_sentiment": "Positive; valued for compliance, reporting and private-markets fit.",
+      "recent_moves": [
+        "2026: Allvue Access25 community conference; AI/Nexius data-platform push",
+        "Jan 2025: Portfolio Monitoring for the updated ILPA GP-LP reporting framework"
+      ],
+      "sources": [
+        "https://www.allvuesystems.com/industries/private-equity/",
+        "https://www.youtube.com/@AllvueSystems",
+        "https://www.g2.com/products/allvue/reviews",
+        "https://www.saasworthy.com/product/allvue"
+      ],
+      "name": "Allvue Systems",
+      "content_focus": "Client stories, AI, PE/credit events",
+      "youtube_activity": "~58 subs; very active (2026)",
+      "ratings": "Capterra 5.0/5 (1 review - sparse); Glassdoor 3.7/5 (190, employer), 67% recommend"
+    },
+    {
+      "url": "https://www.confluence.com/",
+      "one_liner": "Enterprise data, regulatory reporting and analytics for the investment-management industry.",
+      "positioning": "A regulatory and data-quality leader; modular reporting across the fund lifecycle, increasingly AI-driven.",
+      "target_customers": "Asset managers, asset servicers, asset owners and investment consultants; 30+ years in market.",
+      "products": [
+        "Regulatory reporting",
+        "Alternative Funds Reporting Platform (Omnia)",
+        "Rex (AI data quality)",
+        "Confluence PARIS / Style Analytics",
+        "Investor communications"
+      ],
+      "key_features": [
+        "End-to-end regulatory lifecycle incl. ESG",
+        "AI-driven data quality (Rex)",
+        "Modular alternative-funds reporting",
+        "Portfolio analytics (PARIS, Style Analytics)"
+      ],
+      "pricing": "Enterprise; not public.",
+      "strengths": [
+        "Category leader in regulatory reporting (Chartis 2025)",
+        "AI data-quality recognition (2025 awards)",
+        "Deep buy-side compliance focus"
+      ],
+      "weaknesses": [
+        "Narrower than a full front-to-back platform (reporting and data centric)",
+        "Not a portfolio/trading system"
+      ],
+      "marketing_content": "YouTube (@ConfluenceTechnologiesInc) mixes product explainers (Revolution, Confluence PARIS, Style Analytics) with a 'Beyond Borders' market-commentary series (trade/tariffs, Canadian banks and pension funds). Award-led PR (Chartis Category Leader, RegTech Insight USA 2025, AI in Capital Markets 2025).",
+      "social_presence": {
+        "linkedin": "/company/confluence-technologies",
+        "youtube": "@ConfluenceTechnologiesInc - ~58 subs, ~20 videos; product explainers + 'Beyond Borders'",
+        "x": "@ConfluenceTech"
+      },
+      "customer_sentiment": "Well-regarded for regulatory and data quality; strong enterprise references.",
+      "recent_moves": [
+        "2025: 'Best Solution for Buy-Side Regulatory Compliance' (RegTech Insight USA)",
+        "2025: 'Best AI-Based Solution for Data Quality' for Rex",
+        "2025: Chartis Category Leader, Regulatory Reporting"
+      ],
+      "sources": [
+        "https://www.confluence.com/",
+        "https://www.youtube.com/@ConfluenceTechnologiesInc",
+        "https://www.businesswire.com/news/home/20251121213596/en/Confluence-Named-Best-Solution-for-Buy-Side-Regulatory-Compliance-at-the-RegTech-Insight-USA-Awards-2025"
+      ],
+      "name": "Confluence Technologies",
+      "content_focus": "Product explainers + market commentary",
+      "youtube_activity": "~58 subs; active (to Nov '25)",
+      "ratings": "Glassdoor 3.7/5 (122, employer), 70% recommend; IDC FinTech Top 100 (2024); Chartis category leader (2025)"
+    },
+    {
+      "url": "https://www.73strings.com/",
+      "one_liner": "AI-native valuation, monitoring and data-extraction platform for private markets.",
+      "positioning": "Automates middle-office valuation and unstructured-data structuring for alternative assets; an emerging AI challenger.",
+      "target_customers": "Private equity, growth equity, VC, infrastructure and private credit; targeting the $17.6T alternative-AUM space.",
+      "products": [
+        "Value (automated valuations)",
+        "Monitor (portfolio monitoring)",
+        "Extract (unstructured-data structuring)"
+      ],
+      "key_features": [
+        "AI fair-value estimation",
+        "Up to 99% data accuracy",
+        "~50% valuation cost reduction",
+        "Up to 10x faster workflows"
+      ],
+      "pricing": "Quote-on-request (enterprise SaaS).",
+      "strengths": [
+        "AI-native, modern stack",
+        "Strong investor backing (Goldman Sachs Alternatives, Blackstone, Hamilton Lane, Golub)",
+        "Sharp wedge in private-markets valuation/data that overlaps IVP MDM and credit data",
+        "Fast, quantified ROI claims"
+      ],
+      "weaknesses": [
+        "Narrow (valuation/data) versus full-platform breadth",
+        "Younger and smaller, still scaling",
+        "Point solution that must integrate with systems of record"
+      ],
+      "marketing_content": "LinkedIn- and PR-led (founder/CEO Yann Magnan; Series B coverage). Thought leadership on AI valuation for private markets. Minimal owned video/channel program so far (occasional embedded videos rather than an active YouTube channel).",
+      "social_presence": {
+        "linkedin": "Growing (startup; founder-led)",
+        "youtube": "Minimal - no active channel (occasional embedded videos)",
+        "x": "@73strings"
+      },
+      "customer_sentiment": "Buzzy and emerging; validated by top-tier investors more than by public reviews.",
+      "recent_moves": [
+        "Feb 2025: $55M Series B led by Growth Equity at Goldman Sachs Alternatives (with Blackstone, Hamilton Lane, Golub, Broadhaven)"
+      ],
+      "sources": [
+        "https://www.73strings.com/private-markets-valuation-software/",
+        "https://www.businesswire.com/news/home/20250219284432/en/73-Strings-Secures-$55m-Series-B-Led-by-Growth-Equity-at-Goldman-Sachs-Alternatives",
+        "https://pitchbook.com/profiles/company/265552-84"
+      ],
+      "name": "73 Strings",
+      "content_focus": "AI-valuation thought leadership (LinkedIn/PR)",
+      "youtube_activity": "Minimal / none",
+      "ratings": "Minimal public reviews (early-stage); strong investor validation"
+    }
+  ],
+  "sources": [
+    "https://www.ivp.in/",
+    "https://www.enfusion.com/",
+    "https://www.youtube.com/@oneenfusion",
+    "https://www.arcesium.com/",
+    "https://www.youtube.com/c/Arcesium",
+    "https://www.ssctech.com/",
+    "https://www.youtube.com/c/SsctechInc",
+    "https://www.simcorp.com/",
+    "https://www.youtube.com/channel/UCKPHUkNBQTA3nlPJE1CfwXQ",
+    "https://www.allvuesystems.com/",
+    "https://www.youtube.com/@AllvueSystems",
+    "https://www.confluence.com/",
+    "https://www.youtube.com/@ConfluenceTechnologiesInc",
+    "https://www.73strings.com/",
+    "https://www.businesswire.com/news/home/20240905783620/en/Indus-Valley-Partners-Acquires-IntegriDATA"
+  ],
+  "methodology_note": "Free research on 2026-06-15 via WebSearch, WebFetch, and direct site + YouTube reads. YouTube subscriber/video counts and recent uploads were read from each channel's public page and RSS feed; review ratings are from G2, Capterra, Gartner Peer Insights and Glassdoor (note: Glassdoor scores reflect employee/employer sentiment, not product quality). Enterprise products often have sparse public product reviews. Competitor pricing is largely quote-on-request; figures and 'recent moves' reflect publicly reported information."
+}

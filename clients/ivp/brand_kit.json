@@ -1,0 +1,239 @@
+{
+  "source_url": "https://www.ivp.in/",
+  "company_name": "Indus Valley Partners",
+  "logo": {
+    "primary": "clients/ivp/brand/logo_candidate_1.png",
+    "icon": "clients/ivp/brand/logo_candidate_2.png",
+    "candidates": [
+      "clients/ivp/brand/logo_candidate_1.png",
+      "clients/ivp/brand/logo_candidate_2.png",
+      "clients/ivp/brand/logo_candidate_3.png",
+      "clients/ivp/brand/logo_candidate_4.png",
+      "clients/ivp/brand/logo_candidate_5.svg"
+    ]
+  },
+  "colors": {
+    "primary": "#23263b",
+    "secondary": "#007cff",
+    "accent": "#f2ce72",
+    "dark": "#1a1f29",
+    "light": "#f7f9fb",
+    "palette": [
+      "#23263b",
+      "#007cff",
+      "#f2ce72",
+      "#3e34d3",
+      "#2f313a",
+      "#807ea3"
+    ]
+  },
+  "fonts": {
+    "family_name": "Inter",
+    "source": "google:Inter",
+    "regular": "clients/ivp/brand/fonts/Inter-regular.ttf",
+    "bold": "clients/ivp/brand/fonts/Inter-bold.ttf",
+    "italic": "clients/ivp/brand/fonts/Inter-italic.ttf",
+    "bolditalic": "clients/ivp/brand/fonts/Inter-bolditalic.ttf",
+    "detected_on_site": [
+      "Inter",
+      "Manrope"
+    ]
+  },
+  "_evidence": {
+    "color_ranked_top": [
+      {
+        "hex": "#ffffff",
+        "freq": 49,
+        "sat": 0.0,
+        "lum": 255.0,
+        "neutral": true,
+        "from_logo": false
+      },
+      {
+        "hex": "#f2ce72",
+        "freq": 25,
+        "sat": 0.529,
+        "lum": 206.3,
+        "neutral": false,
+        "from_logo": false
+      },
+      {
+        "hex": "#2f313a",
+        "freq": 25,
+        "sat": 0.19,
+        "lum": 49.4,
+        "neutral": true,
+        "from_logo": false
+      },
+      {
+        "hex": "#807ea3",
+        "freq": 20,
+        "sat": 0.227,
+        "lum": 130.8,
+        "neutral": false,
+        "from_logo": false
+      },
+      {
+        "hex": "#3e34d3",
+        "freq": 17,
+        "sat": 0.754,
+        "lum": 73.1,
+        "neutral": false,
+        "from_logo": false
+      },
+      {
+        "hex": "#262627",
+        "freq": 9,
+        "sat": 0.026,
+        "lum": 38.1,
+        "neutral": true,
+        "from_logo": false
+      },
+      {
+        "hex": "#f7f9fb",
+        "freq": 7,
+        "sat": 0.016,
+        "lum": 248.6,
+        "neutral": true,
+        "from_logo": false
+      },
+      {
+        "hex": "#23263b",
+        "freq": 6,
+        "sat": 0.407,
+        "lum": 39.5,
+        "neutral": false,
+        "from_logo": false
+      },
+      {
+        "hex": "#eaeaea",
+        "freq": 3,
+        "sat": 0.0,
+        "lum": 234.0,
+        "neutral": true,
+        "from_logo": false
+      },
+      {
+        "hex": "#007cff",
+        "freq": 3,
+        "sat": 1.0,
+        "lum": 101.9,
+        "neutral": false,
+        "from_logo": false
+      },
+      {
+        "hex": "#f3f3f3",
+        "freq": 3,
+        "sat": 0.0,
+        "lum": 243.0,
+        "neutral": true,
+        "from_logo": false
+      },
+      {
+        "hex": "#a1a1a1",
+        "freq": 3,
+        "sat": 0.0,
+        "lum": 161.0,
+        "neutral": true,
+        "from_logo": false
+      }
+    ],
+    "fonts_detected": {
+      "families_ranked": [
+        "Inter",
+        "Manrope"
+      ],
+      "font_faces": [
+        {
+          "family": "Inter",
+          "src": [
+            "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZs.woff"
+          ]
+        },
+        {
+          "family": "Inter",
+          "src": [
+            "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZs.woff"
+          ]
+        },
+        {
+          "family": "Inter",
+          "src": [
+            "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZs.woff"
+          ]
+        },
+        {
+          "family": "Inter",
+          "src": [
+            "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZs.woff"
+          ]
+        },
+        {
+          "family": "Inter",
+          "src": [
+            "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZs.woff"
+          ]
+        },
+        {
+          "family": "Inter",
+          "src": [
+            "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZs.woff"
+          ]
+        },
+        {
+          "family": "Manrope",
+          "src": [
+            "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_G.woff"
+          ]
+        },
+        {
+          "family": "Manrope",
+          "src": [
+            "https://fonts.gstatic.com/s/manrope/v20/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_G.woff"
+          ]
+        }
+      ],
+      "uses_google_fonts": true
+    },
+    "logo_candidates": [
+      {
+        "path": "clients/ivp/brand/logo_candidate_1.png",
+        "url": "https://www.ivp.in/images/ivp-footer-logo.png",
+        "alt": "",
+        "score": 11,
+        "kind": "img"
+      },
+      {
+        "path": "clients/ivp/brand/logo_candidate_2.png",
+        "url": "https://www.ivp.in/favicons/apple-touch-icon.png",
+        "alt": "",
+        "score": 5,
+        "kind": "icon"
+      },
+      {
+        "path": "clients/ivp/brand/logo_candidate_3.png",
+        "url": "https://www.ivp.in/favicons/favicon-32x32.png",
+        "alt": "",
+        "score": 4,
+        "kind": "icon"
+      },
+      {
+        "path": "clients/ivp/brand/logo_candidate_4.png",
+        "url": "https://www.ivp.in/favicons/favicon-16x16.png",
+        "alt": "",
+        "score": 4,
+        "kind": "icon"
+      },
+      {
+        "path": "clients/ivp/brand/logo_candidate_5.svg",
+        "url": "https://www.ivp.in/icons/linkedin.svg",
+        "alt": "",
+        "score": 1,
+        "kind": "img"
+      }
+    ],
+    "palette_preview": "clients/ivp/brand/palette_preview.png"
+  },
+  "_note": "Best-guess auto-extraction. Review colors/logo/fonts and edit before locking.",
+  "_confirmed": "Palette A (Navy+Gold) confirmed by user 2026-06-15. Logo: monogram brand/logo_candidate_2.png on light pages, white wordmark logo_candidate_1.png on dark cover. Font: system Arial (substitute for detected Inter)."
+}

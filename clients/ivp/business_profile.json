@@ -1,0 +1,18 @@
+{
+  "name": "Indus Valley Partners",
+  "url": "https://www.ivp.in/",
+  "tagline": "Finance Forward",
+  "category": "Buy-side investment management technology & managed services (fintech)",
+  "description": "Technology products, managed services, and consulting for alternative asset managers, spanning front-to-back data, risk, portfolio, and regulatory reporting workflows.",
+  "value_prop": "Helps sophisticated asset managers improve efficiency, insight, and performance through data platforms, risk tools, data-quality automation, and workflow digitization.",
+  "target_customers": "Alternative asset managers: hedge funds, private equity, private credit and CLO managers, family offices, infrastructure and real estate funds",
+  "differentiators": [
+    "25+ years focused exclusively on the buy-side",
+    "Combines software products + managed services + consulting",
+    "Industry platforms: IVP for Private Funds, IVP for Credit, IVP for Master Data Management",
+    "Serves large, complex managers (Blue Owl, Bain Capital, Hudson Bay, Sands Capital)"
+  ],
+  "geography": "Global; HQ New York, delivery across multiple time zones",
+  "notable_clients": ["Blue Owl", "Bain Capital", "Hudson Bay Capital", "Sands Capital"],
+  "_source": "Drafted from https://www.ivp.in/ + public sources on 2026-06-15. Review and edit freely."
+}
