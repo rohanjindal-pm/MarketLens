@@ -22,6 +22,9 @@ env/
 .vscode/
 .idea/
 
+# Office / LibreOffice lock files (created while a document is open)
+~$*
+
 # Claude Code — personal/machine-local settings
 .claude/settings.local.json
 
