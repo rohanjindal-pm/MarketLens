@@ -57,7 +57,9 @@ Run everything in the project venv: `uv run python tools/<tool>.py …`
    vendors"). Propose a shortlist of ~5–7 and **get user approval** before researching.
 4. **Research each competitor** — for each: `WebSearch` + `WebFetch`/`fetch_site.py` across the
    **dimensions** below. Fill one competitor object per the schema. Prefer primary sources (their site,
-   pricing page) + reviews (G2/Capterra/Trustpilot) + recent news. Record `sources[]`.
+   pricing page) + reviews (G2/Capterra/Trustpilot) + **reputable online news/press** (Bloomberg, Reuters,
+   TechCrunch, trade press, company press releases — via `WebSearch`/`WebFetch`, all free). Cite the
+   **specific article URL** (not just the homepage) in `sources[]` so it flows into the per-section citations.
 5. **Assemble findings** — write the full findings object (business + market_summary + competitors) to
    `.tmp/findings.json`.
 6. **Persist** — `uv run python tools/save_snapshot.py .tmp/findings.json --client <slug>`. Fix any schema errors.
