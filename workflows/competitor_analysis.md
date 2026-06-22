@@ -23,7 +23,7 @@ what changed since the last one.
 Research uses **free** built-in `WebSearch` / `WebFetch` (no paid Apify, no API keys). Those are
 **agent** tools — the deterministic Python tools do NOT search the web. So:
 - **You (the agent)** do: discovery, searching, judging relevance, and synthesis.
-- **`tools/`** do: fetching/parsing specific URLs, brand extraction, validation, storage, diffing, PDF rendering.
+- **`tools/`** do: fetching/parsing specific URLs, brand extraction, validation, storage, diffing, PPTX rendering.
 
 ## Tools
 All client-aware tools take `--client <slug>` (default: `active_client` in `config.json`).
