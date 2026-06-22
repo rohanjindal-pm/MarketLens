@@ -112,7 +112,7 @@ def main(argv=None):
     print(f"  1. Confirm branding (colors/logo/font) in {p['brand_kit']}.")
     print(f"  2. Draft {ppath} from {sitetext}, then confirm with the user.")
     print("  3. Discover + research competitors -> .tmp/findings.json")
-    print(f"  4. save_snapshot / diff_snapshots / generate_report  --client {slug}")
+    print(f"  4. save_snapshot / diff_snapshots / generate_report_pptx  --client {slug}")
     return 0
 
 

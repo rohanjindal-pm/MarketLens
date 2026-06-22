@@ -1,7 +1,7 @@
 # Workflow: Competitor Analysis & Market Monitoring
 
 ## Objective
-Produce a **branded PDF** that maps the company's competitive landscape, surfaces what's working
+Produce a **branded PPTX deck** that maps the company's competitive landscape, surfaces what's working
 for competitors and where the company can improve, and is **re-runnable** so each run highlights
 what changed since the last one.
 
@@ -16,7 +16,7 @@ what changed since the last one.
   `clients/<slug>/{business_profile.json, brand_kit.json, brand/ (logo + fonts)}`.
 
 ## Outputs (per client)
-- `clients/<slug>/reports/<slug>_<YYYY-MM-DD>_competitor_report.pdf` — the deliverable.
+- `clients/<slug>/reports/<slug>_<YYYY-MM-DD>_competitor_report.pptx` — the deliverable (portrait 8.5×11 slides, the LETTER aspect ratio; sources cited per paragraph/table).
 - `clients/<slug>/data/runs/<YYYY-MM-DD>/snapshot.json` + `changes.json` — durable history (change tracking).
 
 ## The WAT split (important)
@@ -36,7 +36,7 @@ All client-aware tools take `--client <slug>` (default: `active_client` in `conf
 | `tools/brand_fonts.py --client <slug> [--family X]` | (Re)install a client's brand font: Google Fonts → TTF, else portable DejaVu. |
 | `tools/save_snapshot.py <findings.json> --client <slug> [--date D]` | Validate findings → `clients/<slug>/data/runs/<D>/snapshot.json`. |
 | `tools/diff_snapshots.py --client <slug>` | Diff the two latest snapshots → `clients/<slug>/data/runs/<latest>/changes.json`. |
-| `tools/generate_report.py --client <slug> [--date D]` | Render the branded PDF (client's colors/fonts/logo; same structure). |
+| `tools/generate_report_pptx.py --client <slug> [--date D]` | Render the branded PPTX deck (client's colors/fonts/logo; same structure; sources cited per section). |
 
 Run everything in the project venv: `uv run python tools/<tool>.py …`
 
@@ -62,7 +62,7 @@ Run everything in the project venv: `uv run python tools/<tool>.py …`
    `.tmp/findings.json`.
 6. **Persist** — `uv run python tools/save_snapshot.py .tmp/findings.json --client <slug>`. Fix any schema errors.
 7. **Diff** — `uv run python tools/diff_snapshots.py --client <slug>` (baseline on first run).
-8. **Render** — `uv run python tools/generate_report.py --client <slug>`. Present `clients/<slug>/reports/<slug>_<date>_competitor_report.pdf`.
+8. **Render** — `uv run python tools/generate_report_pptx.py --client <slug>`. Present `clients/<slug>/reports/<slug>_<date>_competitor_report.pptx`.
 
 ## Findings / snapshot schema (the data contract)
 `save_snapshot.py` expects this shape (it fills sensible defaults for missing competitor fields):
@@ -115,9 +115,10 @@ section reflects it. Branding + profile (steps 1–2) are reused, so re-runs are
 - **User confirmation checkpoints:** branding (step 1), business profile (step 2), competitor shortlist
   (step 3). Don't skip these — auto-extraction is a starting point, not the final word.
 - **YouTube/social channels:** YouTube channel pages are JS-rendered (WebFetch/requests see only the footer). To read what a competitor publishes, resolve the channel ID from the channel-page HTML (`"browseId":"UC…"`) or from the homepage's social links, then fetch the public RSS feed `https://www.youtube.com/feeds/videos.xml?channel_id=UC…` for recent video titles + dates. Find a site's social links by regexing the raw homepage HTML for youtube/linkedin/x.com (note: `fetch_site.py` keeps only same-domain links, so use a raw `requests` grep for off-domain socials). WebSearch can rate-limit — these direct reads don't.
-- **PDF preview:** poppler isn't installed; render pages with `pymupdf` (installed) to inspect:
-  `uv run python -c "import fitz; [p.get_pixmap(dpi=110).save(f'.tmp/p{i}.png') for i,p in enumerate(fitz.open('reports/<file>.pdf'))]"`.
+- **Deck preview:** to eyeball the `.pptx`, convert to PDF with LibreOffice (`brew install --cask libreoffice`, provides `soffice`) then render pages with `pymupdf`:
+  `soffice --headless --convert-to pdf --outdir .tmp clients/<slug>/reports/<file>.pptx && uv run python -c "import fitz,glob; [p.get_pixmap(dpi=110).save(f'.tmp/p{i}.png') for i,p in enumerate(fitz.open(glob.glob('.tmp/*competitor_report.pdf')[0]))]"`.
+  (python-pptx can't render; fonts fall back to a system sans in this preview, but layout/overflow are accurate.)
 
 ## Constraints
-Deliverable = the PDF in `reports/`. `.tmp/` is disposable. `data/`, `business_profile.json`,
+Deliverable = the `.pptx` deck in `reports/`. `.tmp/` is disposable. `data/`, `business_profile.json`,
 `brand_kit.json`, `brand/` are durable — do not delete between runs (they hold history + config).

@@ -9,6 +9,7 @@ Pillow>=10.0.0
 reportlab>=4.0.0
 matplotlib>=3.8.0
 pymupdf>=1.24.0   # render PDF pages to PNG for previewing reports (poppler not installed)
+python-pptx>=1.0.0   # render the competitor report as a branded .pptx deck (generate_report_pptx.py)
 
 # Google APIs (for Sheets / Slides / Drive deliverables) — uncomment when needed.
 # google-api-python-client>=2.0.0

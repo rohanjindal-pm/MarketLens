@@ -1,6 +1,6 @@
 # MarketLens
 
-**AI-driven, brand-aware competitor analysis — delivered as a branded PDF you can re-run to keep tabs on your market.**
+**AI-driven, brand-aware competitor analysis — delivered as a branded PPTX deck you can re-run to keep tabs on your market.**
 
 MarketLens turns a single company URL into a polished competitive-landscape report, automatically styled in *that company's own branding* — its colors, fonts, and logo. Re-run it anytime: each run snapshots the market and the report highlights what changed since last time.
 
@@ -43,18 +43,18 @@ uv run python tools/new_client.py https://acme.com --slug acme
 # 2. Confirm branding + fill clients/acme/business_profile.json (from .tmp/acme_site.txt)
 # 3. Research competitors -> .tmp/findings.json   (schema in workflows/competitor_analysis.md)
 
-# 4. Build the branded PDF
+# 4. Build the branded PPTX deck
 uv run python tools/save_snapshot.py .tmp/findings.json --client acme
 uv run python tools/diff_snapshots.py --client acme
-uv run python tools/generate_report.py --client acme
-#    -> clients/acme/reports/acme_<date>_competitor_report.pdf
+uv run python tools/generate_report_pptx.py --client acme
+#    -> clients/acme/reports/acme_<date>_competitor_report.pptx
 ```
 
 Switch the active client anytime with `uv run python tools/use_client.py <slug>`.
 
 ## How it works (the agent loop)
 
-MarketLens is designed to be driven by an AI coding agent (e.g. [Claude Code](https://claude.com/claude-code)) following the SOP in [`workflows/competitor_analysis.md`](workflows/competitor_analysis.md): the **agent** does discovery, web research, and synthesis; the **tools** do fetching, brand extraction, validation, change-tracking, and PDF rendering. Steps 2–3 above are the agent's reasoning; everything else is a deterministic command.
+MarketLens is designed to be driven by an AI coding agent (e.g. [Claude Code](https://claude.com/claude-code)) following the SOP in [`workflows/competitor_analysis.md`](workflows/competitor_analysis.md): the **agent** does discovery, web research, and synthesis; the **tools** do fetching, brand extraction, validation, change-tracking, and PPTX rendering. Steps 2–3 above are the agent's reasoning; everything else is a deterministic command.
 
 ## Tools
 
@@ -66,7 +66,7 @@ MarketLens is designed to be driven by an AI coding agent (e.g. [Claude Code](ht
 | `fetch_site.py` | Fetch + clean a web page (HTML, text, links, CSS, images, icons) |
 | `save_snapshot.py` | Validate findings against the schema → a dated snapshot |
 | `diff_snapshots.py` | Diff the two latest runs → "what changed" |
-| `generate_report.py` | Render the branded PDF (reportlab) |
+| `generate_report_pptx.py` | Render the branded PPTX deck (python-pptx) |
 | `use_client.py` | List / switch the active client |
 
 ## Project layout
