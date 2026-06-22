@@ -6,6 +6,14 @@ MarketLens turns a single company URL into a polished competitive-landscape repo
 
 ![Example report cover](assets/example-cover.png)
 
+## Demo
+
+A 28-second walkthrough of the concept:
+
+[![Watch the MarketLens demo — click to play](assets/marketlens-demo-poster.jpg)](assets/marketlens-demo.mp4)
+
+*Click the thumbnail to play in GitHub's viewer, or [download the MP4](assets/marketlens-demo.mp4) (~1.2 MB).*
+
 ## Why it's different
 
 - 🎨 **Brand-aware reports** — extracts each company's palette, logo, and **real fonts** (downloads the brand's Google Font as TTF; portable fallback otherwise). The report *structure* stays identical; only the skin changes per brand.
